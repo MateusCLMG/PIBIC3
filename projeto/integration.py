@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 
 # Parse the XML file
 tree = ET.parse('aqemcasa.xml')
+
 root = tree.getroot()
 
 # Print selected elements and their child elements
